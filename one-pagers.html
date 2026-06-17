@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex">
+<meta charset="utf-8">
+<title>RCS Email Security — One-Pagers</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Inter:wght@400;600&display=swap">
+<style>
+  :root { --navy:#0B0F2A; --grad-start:#A000B5; --grad-end:#d946ef; --indigo:#818cf8; --muted:#5b6478; --border:#e5e7eb; }
+  * { box-sizing: border-box; }
+  body { font-family:'Manrope','Inter',-apple-system,system-ui,sans-serif; color:var(--navy); margin:0; background:#eef0f5; }
+  .sheet { width:210mm; min-height:297mm; margin:16px auto; background:#fff; padding:24mm 22mm; box-shadow:0 2px 12px rgba(11,15,42,0.12); page-break-after:always; position:relative; }
+  .brand { font-size:14px; font-weight:700; letter-spacing:0.04em; text-transform:uppercase; color:var(--muted); }
+  .brand b { background:linear-gradient(90deg,var(--grad-start),var(--grad-end)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  h1 { font-size:40px; line-height:1.05; margin:18px 0 6px; font-weight:800; }
+  .tag { font-size:19px; color:var(--muted); margin:0 0 26px; font-weight:600; }
+  .hook { background:var(--navy); color:#fff; border-radius:14px; padding:20px 24px; font-size:16px; line-height:1.5; margin:0 0 26px; }
+  .hook b { color:#fff; }
+  h2 { font-size:15px; text-transform:uppercase; letter-spacing:0.05em; color:var(--muted); margin:26px 0 12px; }
+  ul { margin:0; padding:0; list-style:none; }
+  li { padding:9px 0 9px 30px; position:relative; font-size:16px; line-height:1.45; border-bottom:1px solid var(--border); }
+  li:before { content:'✓'; position:absolute; left:0; top:9px; width:20px; height:20px; color:#fff; font-size:12px; font-weight:700; display:flex; align-items:center; justify-content:center; border-radius:999px; background:linear-gradient(90deg,var(--grad-start),var(--grad-end)); }
+  .price { display:flex; align-items:baseline; gap:12px; margin:24px 0 4px; }
+  .price .big { font-size:34px; font-weight:800; }
+  .price .unit { color:var(--muted); font-weight:600; }
+  .note { color:var(--muted); font-size:14px; }
+  .cta { margin-top:26px; padding:18px 22px; border:2px solid var(--indigo); border-radius:12px; font-size:16px; font-weight:600; }
+  .cta .grad { background:linear-gradient(90deg,var(--grad-start),var(--grad-end)); -webkit-background-clip:text; background-clip:text; color:transparent; font-weight:800; }
+  .guarantee { display:inline-block; margin-top:14px; background:#ecfdf5; color:#065f46; border-radius:999px; padding:7px 14px; font-size:14px; font-weight:700; }
+  footer { position:absolute; bottom:18mm; left:22mm; right:22mm; display:flex; justify-content:space-between; color:var(--muted); font-size:13px; border-top:1px solid var(--border); padding-top:12px; }
+  @media print { body { background:#fff; } .sheet { margin:0; box-shadow:none; } }
+  @page { size:A4; margin:0; }
+</style>
+</head>
+<body>
+
+<!-- 1. ASSESSMENT -->
+<section class="sheet">
+  <div class="brand">Rosebud Cloud Solutions · <b>Email Security</b></div>
+  <h1>Email Security Assessment</h1>
+  <p class="tag">Know exactly how exposed your email is, in plain English.</p>
+  <div class="hook">Since 2024, <b>Google, Yahoo and Microsoft reject or junk mail</b> from senders who fail email authentication. Yet only about <b>1 in 11 domains</b> is properly protected. Find out where you stand.</div>
+  <h2>What you get</h2>
+  <ul>
+    <li>A free instant scan of your domain across 30+ email and security checks, with an at-a-glance score.</li>
+    <li>An expert review: a specialist reads the results and tells you what actually matters for you.</li>
+    <li>A prioritised, plain-English fix list in a branded report.</li>
+    <li>A short readout call to walk you through it.</li>
+  </ul>
+  <p class="note">Free instant scan to start. The expert assessment is credited against any Hardening or Managed service you go on to take.</p>
+  <div class="cta">Start with the free scan at <span class="grad">posture.rosebudcloudsolutions.co.uk</span>, then talk to us about a full assessment.</div>
+  <footer><span>Rosebud Cloud Solutions</span><span>hello@rosebudcloudsolutions.co.uk</span></footer>
+</section>
+
+<!-- 2. HARDENING -->
+<section class="sheet">
+  <div class="brand">Rosebud Cloud Solutions · <b>Email Security</b></div>
+  <h1>Email Security Hardening</h1>
+  <p class="tag">We don't just tell you what's wrong. We fix it.</p>
+  <div class="hook">A one-off, <b>done-for-you</b> project that takes your domain from exposed to properly protected, in stages, <b>without ever interrupting your legitimate email</b>.</div>
+  <h2>What you get</h2>
+  <ul>
+    <li>A full assessment of your current setup.</li>
+    <li>Hands-on remediation: SPF, DKIM and DMARC corrected and moved to enforcement.</li>
+    <li>Modern protections added: MTA-STS and TLS reporting, plus any exposed records cleaned up.</li>
+    <li>A before-and-after report proving your improved security grade.</li>
+  </ul>
+  <span class="guarantee">Guarantee: enforced within 90 days, or we keep working at no extra cost.</span>
+  <p class="note">A one-off project, priced per domain. Group and multi-domain pricing available, and fully creditable toward Managed DMARC.</p>
+  <div class="cta">Book a hardening project: <span class="grad">hello@rosebudcloudsolutions.co.uk</span></div>
+  <footer><span>Rosebud Cloud Solutions</span><span>hello@rosebudcloudsolutions.co.uk</span></footer>
+</section>
+
+<!-- 3. MANAGED DMARC -->
+<section class="sheet">
+  <div class="brand">Rosebud Cloud Solutions · <b>Email Security</b></div>
+  <h1>Managed DMARC</h1>
+  <p class="tag">Done-for-you email protection, for a fraction of the usual price.</p>
+  <div class="hook">The big providers charge thousands a year and hide their pricing behind "contact sales". We get you to full protection and <b>keep you there</b>, for a simple monthly fee, <b>without you having to learn DMARC</b>.</div>
+  <h2>What you get</h2>
+  <ul>
+    <li>You point your DMARC reports at us. We do the rest.</li>
+    <li>We identify every system sending as you and sort the legitimate from the suspicious.</li>
+    <li>We walk your domain safely to full enforcement, and you approve each step.</li>
+    <li>A clean portal showing your live status and senders, ongoing monitoring, and a monthly summary.</li>
+  </ul>
+  <p class="note">A simple monthly subscription, no long lock-in, typically a fraction of the cost of the big managed providers. Get a quote for your domains.</p>
+  <div class="cta">See where you stand first at <span class="grad">posture.rosebudcloudsolutions.co.uk</span>, then let us protect your domain.</div>
+  <footer><span>Rosebud Cloud Solutions</span><span>hello@rosebudcloudsolutions.co.uk</span></footer>
+</section>
+
+</body>
+</html>

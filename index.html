@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta name="robots" content="noindex">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>RCS Email Security — Packages</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&family=Inter:wght@400;600&display=swap">
+<style>
+  :root { --navy:#0B0F2A; --grad-start:#A000B5; --grad-end:#d946ef; --indigo:#818cf8; --muted:#5b6478; --border:#e6e8ef; --bg:#f4f5f9; }
+  * { box-sizing:border-box; }
+  body { font-family:'Manrope','Inter',-apple-system,system-ui,sans-serif; color:var(--navy); margin:0; background:var(--bg); }
+  .wrap { max-width:1080px; margin:0 auto; padding:0 20px; }
+  .grad { background:linear-gradient(90deg,var(--grad-start),var(--grad-end)); -webkit-background-clip:text; background-clip:text; color:transparent; }
+  header.hero { background:var(--navy); color:#fff; padding:64px 0 56px; text-align:center; }
+  header.hero h1 { font-size:42px; font-weight:800; margin:0 0 12px; }
+  header.hero p { font-size:19px; color:#aab2d5; max-width:680px; margin:0 auto; }
+  .pill { display:inline-block; background:rgba(255,255,255,0.08); border:1px solid rgba(255,255,255,0.18); color:#cbd5e1; font-size:13px; font-weight:600; padding:6px 14px; border-radius:999px; margin-bottom:22px; }
+  .cards { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin:-36px auto 56px; }
+  @media (max-width:900px){ .cards{ grid-template-columns:1fr 1fr; } }
+  @media (max-width:560px){ .cards{ grid-template-columns:1fr; } }
+  .card { background:#fff; border:1px solid var(--border); border-radius:16px; padding:24px; display:flex; flex-direction:column; box-shadow:0 2px 10px rgba(11,15,42,0.05); }
+  .card.feature { border:2px solid var(--indigo); box-shadow:0 6px 22px rgba(129,140,248,0.22); }
+  .card h3 { font-size:20px; margin:0 0 4px; }
+  .card .who { color:var(--muted); font-size:14px; min-height:54px; margin:0 0 14px; }
+  .card .cap { font-size:13px; font-weight:700; color:var(--muted); text-transform:uppercase; letter-spacing:0.04em; margin-bottom:12px; }
+  .card ul { list-style:none; padding:0; margin:0 0 20px; flex:1; }
+  .card li { font-size:14px; padding:6px 0 6px 22px; position:relative; line-height:1.4; }
+  .card li:before { content:'✓'; position:absolute; left:0; color:#10b981; font-weight:800; }
+  .btn { text-align:center; text-decoration:none; font-weight:700; padding:12px 16px; border-radius:10px; display:block; }
+  .btn-primary { background:linear-gradient(90deg,var(--grad-start),var(--grad-end)); color:#fff; }
+  .btn-ghost { background:#fff; color:var(--navy); border:1px solid var(--border); }
+  .badge { align-self:flex-start; background:linear-gradient(90deg,var(--grad-start),var(--grad-end)); color:#fff; font-size:12px; font-weight:700; padding:3px 10px; border-radius:999px; margin-bottom:10px; }
+  section.compare { padding:8px 0 64px; }
+  section.compare h2 { text-align:center; font-size:30px; margin:0 0 8px; }
+  section.compare .sub { text-align:center; color:var(--muted); margin:0 0 28px; }
+  table { width:100%; border-collapse:collapse; background:#fff; border-radius:16px; overflow:hidden; box-shadow:0 2px 10px rgba(11,15,42,0.05); }
+  th, td { padding:13px 14px; text-align:center; border-bottom:1px solid var(--border); font-size:14px; }
+  th:first-child, td:first-child { text-align:left; font-weight:600; }
+  thead th { background:var(--navy); color:#fff; font-size:13px; }
+  tbody tr:nth-child(even){ background:#fafbfd; }
+  .grp td { background:#eef0f7; font-weight:700; text-transform:uppercase; letter-spacing:0.04em; font-size:12px; color:var(--muted); }
+  .yes { color:#10b981; font-weight:800; }
+  .no { color:#cbd5e1; }
+  section.cta { background:var(--navy); color:#fff; text-align:center; padding:56px 0; }
+  section.cta h2 { font-size:30px; margin:0 0 10px; }
+  section.cta p { color:#aab2d5; margin:0 0 24px; }
+  .cta .btn { display:inline-block; }
+  footer { text-align:center; color:var(--muted); font-size:13px; padding:28px 0; }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="pill">Google, Yahoo &amp; Microsoft now require DMARC</span>
+    <h1>Stop anyone sending email <span class="grad">as your business</span></h1>
+    <p>Done-for-you email security that gets you protected and compliant, without you having to learn DMARC. Start with a free scan, choose the level of help you want.</p>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="cards">
+    <div class="card">
+      <h3>Free Scan</h3>
+      <p class="who">See exactly how exposed your domain is, in seconds.</p>
+      <div class="cap">No cost</div>
+      <ul>
+        <li>Instant security score</li>
+        <li>30+ email &amp; DNS checks</li>
+        <li>Spoofability check</li>
+      </ul>
+      <a class="btn btn-primary" href="https://posture.rosebudcloudsolutions.co.uk">Run free scan</a>
+    </div>
+    <div class="card">
+      <h3>Assessment</h3>
+      <p class="who">A specialist reads your results and tells you what matters.</p>
+      <div class="cap">One-off</div>
+      <ul>
+        <li>Everything in the scan</li>
+        <li>Expert-reviewed report</li>
+        <li>Prioritised fix list</li>
+        <li>Readout call</li>
+      </ul>
+      <a class="btn btn-ghost" href="#contact">Get a quote</a>
+    </div>
+    <div class="card">
+      <h3>Hardening</h3>
+      <p class="who">We fix it for you, to full enforcement, without breaking your mail.</p>
+      <div class="cap">One-off project</div>
+      <ul>
+        <li>Hands-on SPF/DKIM/DMARC fixes</li>
+        <li>MTA-STS &amp; TLS reporting</li>
+        <li>Before/after proof</li>
+        <li>Enforced in 90 days, guaranteed</li>
+      </ul>
+      <a class="btn btn-ghost" href="#contact">Get a quote</a>
+    </div>
+    <div class="card feature">
+      <span class="badge">Most popular</span>
+      <h3>Managed DMARC</h3>
+      <p class="who">Done-for-you protection, monitored and maintained for you.</p>
+      <div class="cap">Monthly</div>
+      <ul>
+        <li>We identify &amp; classify every sender</li>
+        <li>We walk you to full enforcement</li>
+        <li>Live portal &amp; monthly reports</li>
+        <li>Ongoing monitoring</li>
+      </ul>
+      <a class="btn btn-primary" href="#contact">Get a quote</a>
+    </div>
+  </div>
+</div>
+
+<section class="compare">
+  <div class="wrap">
+    <h2>What's included</h2>
+    <p class="sub">More help as you go up. Managed DMARC is everything, done for you, ongoing.</p>
+    <table>
+      <thead>
+        <tr><th>Feature</th><th>Free Scan</th><th>Assessment</th><th>Hardening</th><th>Managed DMARC</th></tr>
+      </thead>
+      <tbody>
+        <tr class="grp"><td colspan="5">Visibility</td></tr>
+        <tr><td>Security score &amp; 30+ checks</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Expert-reviewed report</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Sender identification &amp; classification</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr class="grp"><td colspan="5">Getting protected</td></tr>
+        <tr><td>Prioritised fix list</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Done-for-you SPF / DKIM / DMARC fixes</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Safe step-up to full enforcement (p=reject)</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>MTA-STS &amp; TLS reporting</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>BIMI (your logo in inboxes)</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr class="grp"><td colspan="5">Staying protected</td></tr>
+        <tr><td>Customer portal &amp; live status</td><td class="no">–</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td></tr>
+        <tr><td>Ongoing monitoring &amp; alerts</td><td class="no">–</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td></tr>
+        <tr><td>Monthly reports</td><td class="no">–</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td></tr>
+        <tr><td>Unlimited domains &amp; users</td><td class="no">–</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td></tr>
+        <tr><td>Enforcement guarantee</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="cta" id="contact">
+  <div class="wrap">
+    <h2>See where you stand, free</h2>
+    <p>Run the scan, then talk to us about the level of help that fits.</p>
+    <a class="btn btn-primary" href="https://posture.rosebudcloudsolutions.co.uk">Test your domain</a>
+  </div>
+</section>
+
+<footer>Rosebud Cloud Solutions &nbsp;·&nbsp; hello@rosebudcloudsolutions.co.uk</footer>
+
+</body>
+</html>
