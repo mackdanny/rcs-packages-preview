@@ -122,22 +122,47 @@
         <tr><th>Feature</th><th>Free Scan</th><th>Assessment</th><th>Hardening</th><th>Managed DMARC</th></tr>
       </thead>
       <tbody>
-        <tr class="grp"><td colspan="5">Visibility</td></tr>
-        <tr><td>Security score &amp; 30+ checks</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
-        <tr><td>Expert-reviewed report</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr class="grp"><td colspan="5">Visibility &amp; analysis</td></tr>
+        <tr><td>Security score (A–F) with grade breakdown</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>30+ email, DNS, web &amp; TLS security checks</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Spoofability check (can someone send as you?)</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Attacker's-eye impersonation view</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Lookalike / typo-squat domain detection</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>External exposure (subdomain takeover, zone transfer, wildcard)</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Domain expiry &amp; registrar-lock check</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Credential / breach exposure review</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+
+        <tr class="grp"><td colspan="5">Reporting &amp; monitoring</td></tr>
+        <tr><td>Expert-reviewed report (PDF)</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>DMARC aggregate report ingestion &amp; analysis</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
         <tr><td>Sender identification &amp; classification</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
-        <tr class="grp"><td colspan="5">Getting protected</td></tr>
-        <tr><td>Prioritised fix list</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
-        <tr><td>Done-for-you SPF / DKIM / DMARC fixes</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
-        <tr><td>Safe step-up to full enforcement (p=reject)</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
-        <tr><td>MTA-STS &amp; TLS reporting</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
-        <tr><td>BIMI (your logo in inboxes)</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
-        <tr class="grp"><td colspan="5">Staying protected</td></tr>
-        <tr><td>Customer portal &amp; live status</td><td class="no">–</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td></tr>
-        <tr><td>Ongoing monitoring &amp; alerts</td><td class="no">–</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td></tr>
+        <tr><td>Full audit trail of every change to your domain</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Continuous monitoring &amp; drift alerts</td><td class="no">–</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td></tr>
+        <tr><td>Live status portal</td><td class="no">–</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td></tr>
         <tr><td>Monthly reports</td><td class="no">–</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td></tr>
-        <tr><td>Unlimited domains &amp; users</td><td class="no">–</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td></tr>
-        <tr><td>Enforcement guarantee</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+
+        <tr class="grp"><td colspan="5">Getting protected (done-for-you)</td></tr>
+        <tr><td>Prioritised, plain-English fix list</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Done-for-you SPF, DKIM &amp; DMARC setup</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Safe step-up to full enforcement (p=reject)</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Enforcement safety gates (no broken mail)</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>MTA-STS (forces inbound encryption)</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>TLS reporting (TLS-RPT)</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>BIMI (your verified logo in inboxes)</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Exposed / dangling record cleanup</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Enforcement guarantee (90 days)</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+
+        <tr class="grp"><td colspan="5">Management &amp; access</td></tr>
+        <tr><td>Unlimited domains</td><td class="no">–</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td></tr>
+        <tr><td>Unlimited portal users</td><td class="no">–</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td></tr>
+        <tr><td>Passwordless, phishing-resistant login</td><td class="no">–</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td></tr>
+        <tr><td>Complete report history retained</td><td class="no">–</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td></tr>
+
+        <tr class="grp"><td colspan="5">Service &amp; support</td></tr>
+        <tr><td>Expert human review &amp; readout call</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Fully done-for-you implementation</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td></tr>
+        <tr><td>Ongoing managed service &amp; guidance</td><td class="no">–</td><td class="no">–</td><td class="no">–</td><td class="yes">✓</td></tr>
+        <tr><td>Priority human support</td><td class="no">–</td><td class="yes">✓</td><td class="yes">✓</td><td class="yes">✓</td></tr>
       </tbody>
     </table>
   </div>
